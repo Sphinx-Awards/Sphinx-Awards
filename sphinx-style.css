@@ -1,0 +1,266 @@
+/* ------------------------------
+   Header Sphinx Awards
+---------------------------------*/
+
+header {
+  /* Degradado azul cyan → negro con opacidad baja */
+  background: linear-gradient(
+    90deg,
+    rgba(6, 182, 212, 0.4),  /* azul cyan semi-transparente */
+    rgba(0, 0, 0, 0.4)       /* negro semi-transparente */
+  );
+  backdrop-filter: blur(2px); /* opcional: desenfoque suave */
+}
+
+/* Texto secundario debajo del título */
+header p {
+    color: #f0f0f0; /* blanco suave */
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+/* ------------------------------
+   Botones de votación generales
+---------------------------------*/
+a.boton, a.boton-homura{
+    display: block;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #5106d4; /* morado */
+    transition: background-color 0.3s ease;
+}
+a.boton, a.boton-lelouch {
+    display: block;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #7062eb; 
+    transition: background-color 0.3s ease;
+}
+a.boton, a.boton-jiraiya {
+    display: block;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #348039; 
+    transition: background-color 0.3s ease;
+}
+a.boton, a.boton-anya {
+    display: block;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #f7a6f3;
+    transition: background-color 0.3s ease;
+}
+a.boton, a.boton-gojo {
+    display: block;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #13438a;
+    transition: background-color 0.3s ease;
+}
+a.boton, a.boton-hanako {
+    display: block;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #855611;
+    transition: background-color 0.3s ease;
+}
+a.boton, a.boton-esdeath {
+    display: block;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+    background-color: #00fbff;
+    transition: background-color 0.3s ease;
+}
+a.boton, a.boton-rem {
+    display: block;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #5f7b9f;
+    transition: background-color 0.3s ease;
+}
+a.boton, a.boton-dofla {
+    display: block;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #b819b0;
+    transition: background-color 0.3s ease;
+}
+a.boton, a.boton-rei {
+    display: block;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #0762b8;
+    transition: background-color 0.3s ease;
+}
+a.boton, a.boton-yamamoto {
+    display: block;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+    background-color: #fcfcfc;
+    transition: background-color 0.3s ease;
+}
+a.boton, a.boton-senku {
+    display: block;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #1aa847;
+    transition: background-color 0.3s ease;
+}
+a.boton, a.boton-killua {
+    display: block;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #006aff;
+    transition: background-color 0.3s ease;
+}
+a.boton, a.boton-yumeko {
+    display: block;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #e90000;
+    transition: background-color 0.3s ease;
+}
+a.boton, a.boton-nana {
+    display: block;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #340142;
+    transition: background-color 0.3s ease;
+}
+a.boton, a.boton-nico {
+    display: block;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #5a5282;
+    transition: background-color 0.3s ease;
+}
+
+a.boton:hover, a.boton-homura:hover, a.boton-lelouch:hover, a.boton-anya:hover, a.boton-hanako:hover, a.boton-jiraiya:hover, a.boton-nico:hover, 
+a.boton-nana:hover, a.boton-yumeko:hover, a.boton-gojo:hover, a.boton-esdeath:hover, a.boton-rei:hover, a.boton-dofla:hover, a.boton-rem:hover, a.boton-killua:hover, a.boton-senku:hover, a.boton-yamamoto:hover{
+    background-color: #0891b2; /* azul cyan más oscuro al pasar el mouse */
+}
+
+/* Tarjetas de premio */ 
+section .grid > div { 
+    background-color: rgba(32, 37, 96, 0.8); /* gris oscuro semitransparente */ 
+    border-radius: 1.5rem; 
+    overflow: hidden; 
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5); 
+    transition: transform 0.3s ease,
+     box-shadow 0.3s ease; }
+
+section .grid > div:hover { 
+    transform: translateY(-5px); 
+    box-shadow: 0 12px 24px rgba(0,0,0,0.6); }
+
+/* Imágenes dentro de las tarjetas */ section .grid img { 
+    width: 100%; 
+    height: 12rem;
+     object-fit: cover; } 
+     
+     
+    /* Títulos de cada premio */ 
+    section .grid h3 { 
+        color: #f0f0f0; 
+        font-weight: 600;
+         margin-bottom: 0.5rem; }
+
+    /* Fondo base para todas las secciones */ 
+    .premio { 
+        position: relative; 
+        padding: 2rem; 
+        border-radius: 1.5rem;
+         overflow: hidden; 
+    } 
+         
+    .premio::before { 
+        content: ""; 
+        position: absolute; 
+        top: 0; left: 0; width: 100%; height: 100%; 
+        background-size: cover; 
+        background-position: center;
+        opacity: 0.15; z-index: 0;
+       transition: background-image 0.5s ease-in-out; 
+    } 
+
+    .premio > * { 
+        position: relative; z-index: 1; }
+
+ /* Fondo cíclico detrás de todo */
+#fondo-ciclico {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: -1; /* detrás del contenido */
+  opacity: 0.25; /* baja opacidad para no opacar las categorías */
+  transition: background-image 1s ease-in-out;
+}
+
